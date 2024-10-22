@@ -1,0 +1,40 @@
+.search__box {
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button_search {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000d6b;
+  color: #fff;
+  border-radius: 1.3rem;
+  cursor: pointer;
+}
+
+.button_search:hover{
+    background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .search__box {
+    flex-direction: column;
+  }
+
+  .input-container {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

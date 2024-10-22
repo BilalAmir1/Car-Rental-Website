@@ -1,0 +1,78 @@
+.booking__form {
+  width: 47.5%;
+}
+
+.booking__form input {
+  padding: 8px 15px;
+  border: 1px solid #7c8a972a;
+  color: #7c8a97;
+  width: 100%;
+}
+
+.booking__form select,
+.textarea {
+  width: 100%;
+  padding: 10px 15px;
+  color: #7c8a97;
+  border: 1px solid #7c8a972a;
+  border-radius: 4px;
+}
+
+.time__picker::before {
+  content: "Journey Time";
+  color: #7c8a97;
+  margin-right: 0.5rem;
+}
+
+.textarea:focus,
+.booking__form input:focus,
+.booking__form select:focus {
+  outline: none;
+}
+
+/* Custom styling for the address input */
+.address_input {
+  display: inline-block;
+  margin-right: 1rem; /* Adjust margin as needed */
+}
+
+.address_input input {
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ced4da; /* Default border color */
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.address_input input::placeholder {
+  color: #6c757d; /* Placeholder text color */
+}
+
+.address_input input:focus {
+  border-color: #80bdff; /* Focus border color */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus box shadow */
+}
+
+@media (max-width: 767px) {
+  .address_input {
+    margin-right: 0; /* Remove margin for smaller screens */
+    margin-bottom: 1rem; /* Add margin at the bottom for spacing */
+  }
+  .address_input input {
+    max-width: 100%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .booking__form {
+    width: 100%;
+  }
+
+  .booking__form input,
+  .textarea,
+  .booking__form select {
+    font-size: 0.8rem;
+  }
+}

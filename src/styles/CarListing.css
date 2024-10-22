@@ -1,0 +1,22 @@
+/* Add this CSS to your styles file or component */
+.custom-select {
+    appearance: none;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .custom-select:hover {
+    border-color: #adb5bd;
+  }
+  
+  .custom-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* You can customize the styles further based on your design preferences */
+  
